@@ -5,6 +5,9 @@ body {
 
 body {
     text-align: center;
+    background: url(../q.png) no-repeat;
+    background-size: 100%;
+    background-position: top center;
 }
 
 main .text {

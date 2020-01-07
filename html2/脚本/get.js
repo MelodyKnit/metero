@@ -1,5 +1,6 @@
 class getText {
     constructor() {
+        alert('制作不易，还请扫码支持')
         this.$ = e => document.querySelector(e);
         this.$c = e => document.createElement(e);
         this.$a = e => document.querySelectorAll(e);

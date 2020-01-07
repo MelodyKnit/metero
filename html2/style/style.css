@@ -1,0 +1,75 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+}
+
+main .text {
+    width: 100%;
+}
+
+header .search .txt,
+header .search select {
+    outline: none;
+}
+
+header .search select,
+header .search .txt {
+    height: 100%;
+}
+
+main .text,
+main .text ul,
+header .search {
+    margin: 0 auto;
+}
+
+header .search {
+    height: 40px;
+    width: calc(100% - 10px);
+    max-width: 900px;
+    padding-left: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+header .search select {
+    width: 50px;
+    float: left;
+    border: none;
+    background: none;
+    padding-bottom: 5px;
+}
+
+header .search .txt {
+    border: none;
+    padding: 0 10px;
+    font-size: 18px;
+    width: calc(100% - 120px);
+}
+
+ul {
+    list-style: none;
+}
+
+main .text ul {
+    min-height: 50px;
+    margin-top: 20px;
+    max-width: 1200px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: calc(95% - 40px);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+main .text ul li {
+    text-align: justify;
+    word-break: break-all;
+    text-justify: newspaper;
+}
+
+main .text ul li p {
+    margin-top: 5px;
+}

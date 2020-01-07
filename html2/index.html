@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>考试答案查询</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/english.js"></script>
+    <script src="script/politics.js"></script>
+    <script src="script/yw.js"></script>
+    <script src="script/get.js"></script>
+</head>
+
+<body>
+    <header>
+        <section class="search">
+            <select name="type1" id="type1" class="types">
+                <option value="english">英语</option>
+                <option value="politics">政治</option>
+                <option value="yw">语文</option>
+            </select>
+            <select name="type2" id="type2" class="types"></select>
+            <input type="text" class="txt" placeholder="直接输入题目自动查询">
+        </section>
+    </header>
+    <main>
+        <section class="text"></section>
+    </main>
+    <footer></footer>
+    <script>
+        new getText();
+    </script>
+</body>
+
+</html>
